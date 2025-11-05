@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>NPFL Insight — Contact / Join</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <div class="brand"><a href="index.html">NPFL <span>Insight</span></a></div>
+      <button id="mobileMenuBtn7" class="mobile-btn" aria-label="Open menu">☰</button>
+      <nav id="nav7" class="main-nav">
+        <ul>
+          <li><a href="./index.html">🏠Home</a></li>
+          <li><a href="./podcast.html">🎙️Podcast</a></li>
+          <li><a href="./reviews.html">Reviews & Previews</a></li>
+          <li><a href="./gist.html">>💬 Gist & Trends</a></li>
+          <li><a href="./clubs.html">Clubs & Fixtures</a></li>
+          <li><a href="./about.html">👥About</a></li>
+          <li><a href="./contact.html" class="active">📬 Join</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="card contact-grid">
+      <div>
+        <h1>Join the Community</h1>
+        <p class="muted">Subscribe to our newsletter or join the fantasy league to start competing.</p>
+
+        <form id="joinForm" class="join-form">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required placeholder="you@example.com">
+
+          <label for="name">Full name (optional)</label>
+          <input type="text" id="name" name="name" placeholder="Your name">
+
+          <label for="type">I want to:</label>
+          <select id="type" name="type">
+            <option value="newsletter">Join Newsletter</option>
+            <option value="fantasy">Join Fantasy League</option>
+          </select>
+
+          <button class="btn primary" type="submit">Join</button>
+        </form>
+      </div>
+
+      <aside class="card">
+        <h3>Contact</h3>
+        <p class="muted">hello@npflinsight.example</p>
+        <h3>Follow</h3>
+        <div class="social">
+          <a href="#">Twitter</a>
+          <a href="#">Instagram</a>
+          <a href="#">YouTube</a>
+        </div>
+      </aside>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>© NPFL Insight — Contact</div>
+      <nav class="footer-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
