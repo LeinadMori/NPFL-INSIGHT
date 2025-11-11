@@ -1,0 +1,30 @@
+[
+    {
+      "id": 1,
+      "title": "Enyimba’s Title Push: Can They Go All the Way?",
+      "category": "Sports",
+      "image": "https://images.unsplash.com/photo-1508609349937-5ec4ae374ebf?auto=format&fit=crop&w=1200&q=80",
+      "author": "NPFL Insight",
+      "date": "2025-11-05",
+      "content": "Enyimba is pushing hard for the NPFL title this season. Their recent performances show strong tactical and offensive strategies..."
+    },
+    {
+      "id": 2,
+      "title": "Rangers Edge Out Enyimba in Tense Encounter",
+      "category": "Sports",
+      "image": "https://images.unsplash.com/photo-1521412644187-c49fa049e84d?auto=format&fit=crop&w=400&q=80",
+      "author": "NPFL Insight",
+      "date": "2025-11-06",
+      "content": "In a thrilling game, Rangers narrowly defeated Enyimba with a late goal, continuing their unbeaten streak..."
+    },
+    {
+      "id": 3,
+      "title": "Top 10 Adventure Spots Across Nigeria",
+      "category": "Travel",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
+      "author": "Travel Insight",
+      "date": "2025-11-03",
+      "content": "From the Obudu Cattle Ranch to Nigeria’s hidden waterfalls, explore the top adventure spots for travelers..."
+    }
+  ]
+  

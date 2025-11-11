@@ -4,73 +4,177 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>NPFL Insight — Contact / Join</title>
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/png" href="/IMAGES/file_000000002b9471f4b870f9ccd6563e9a-removebg-preview.png">
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+/>
+  <link rel="stylesheet" href="/CSS/contact.css">
 </head>
 <body>
-  <header class="site-header">
-    <div class="container nav-wrap">
-      <div class="brand"><a href="index.html">NPFL <span>Insight</span></a></div>
-      <button id="mobileMenuBtn7" class="mobile-btn" aria-label="Open menu">☰</button>
-      <nav id="nav7" class="main-nav">
-        <ul>
-          <li><a href="./index.html">🏠Home</a></li>
-          <li><a href="./podcast.html">🎙️Podcast</a></li>
-          <li><a href="./reviews.html">Reviews & Previews</a></li>
-          <li><a href="./gist.html">>💬 Gist & Trends</a></li>
-          <li><a href="./clubs.html">Clubs & Fixtures</a></li>
-          <li><a href="./about.html">👥About</a></li>
-          <li><a href="./contact.html" class="active">📬 Join</a></li>
-        </ul>
-      </nav>
+ <!-- Header / Nav -->
+ 
+ <header class="hero-header">
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="logo">
+      <img src="/IMAGES/file_000000002b9471f4b870f9ccd6563e9a-removebg-preview.png" alt="NPFL Insight">
     </div>
-  </header>
+  
+    <ul class="nav-links">
+      <li><a href="/HTML/index.html">🏠Home</a></li>
+      <li><a href="/HTML/podcast.html">🎙️Podcast</a></li>
+      <li><a href="/HTML/reviews.html">🧠Reviews</a></li>
+      <li><a href="/HTML/gist.html">💬Trends</a></li>
+      <li><a href="/HTML/fantacy.html">⚽Fantacy</a></li>
+      <li><a href="/HTML/about.html">👥 About</a></li>
+      <li><a href="/HTML/contact.html" class="btn-join">📬 Join</a></li>
+    </ul>
+  </nav>
+  
 
-  <main class="container">
-    <section class="card contact-grid">
-      <div>
-        <h1>Join the Community</h1>
-        <p class="muted">Subscribe to our newsletter or join the fantasy league to start competing.</p>
-
-        <form id="joinForm" class="join-form">
-          <label for="email">Email</label>
-          <input type="email" id="email" name="email" required placeholder="you@example.com">
-
-          <label for="name">Full name (optional)</label>
-          <input type="text" id="name" name="name" placeholder="Your name">
-
-          <label for="type">I want to:</label>
-          <select id="type" name="type">
-            <option value="newsletter">Join Newsletter</option>
-            <option value="fantasy">Join Fantasy League</option>
-          </select>
-
-          <button class="btn primary" type="submit">Join</button>
+  <!-- HERO CONTENT -->
+  <div class="hero-section">
+    <div class="hero-content">
+      <div class="hero-text">
+        <h1>INSIGHT INTO THE GAME</h1>
+        <p>Latest stats, stories, and trends from the Nigerian Professional Football League.</p>
+        <div class="hero-buttons">
+          <a href="clubs.html" class="btn-primary">Explore Fixtures</a>
+          <a href="fantasy.html" class="btn-secondary">Join Fantasy League</a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <img src="/IMAGES/ftacy01.png" alt="">
+      </div>
+    </div>
+  </div>    
+</header>
+  <main class="contact-main">
+    <!-- Hero / Intro Section -->
+    <section class="contact-hero">
+      <div class="contact-overlay">
+        <div class="contact-text">
+          <h1>Join the <span>NPFL Conversation</span></h1>
+          <p>
+            Get in touch with <strong>NPFL Insight</strong> — whether you want to share a story, pitch an article, 
+            or collaborate with us on Nigerian football coverage, we’d love to hear from you.
+          </p>
+        </div>
+        <form class="contact-form">
+          <h3>Reach Out to Us</h3>
+          <input type="text" placeholder="Your Full Name" required>
+          <input type="email" placeholder="Your Email Address" required>
+          <textarea placeholder="Your Message..." required></textarea>
+          <button type="submit">SEND MESSAGE</button>
+          <p class="note">We respect your privacy — your message stays confidential.</p>
         </form>
       </div>
-
-      <aside class="card">
-        <h3>Contact</h3>
-        <p class="muted">hello@npflinsight.example</p>
-        <h3>Follow</h3>
-        <div class="social">
-          <a href="#">Twitter</a>
-          <a href="#">Instagram</a>
-          <a href="#">YouTube</a>
-        </div>
-      </aside>
     </section>
+  
+    <!-- Who It's For / CTA Section -->
+    <section class="contact-info">
+      <div class="info-container">
+        <h2>The NPFL Insight Platform is for you if you want to:</h2>
+        <div class="info-cards">
+          <div class="info-card">
+            <h3>1. Share your football story</h3>
+            <p>Are you a player, coach, or fan with a story worth telling? We want your voice heard across Nigeria.</p>
+          </div>
+          <div class="info-card">
+            <h3>2. Collaborate on coverage</h3>
+            <p>Join our contributor network to write features, produce visuals, or help us expand football storytelling.</p>
+          </div>
+          <div class="info-card">
+            <h3>3. Partner with NPFL Insight</h3>
+            <p>Let’s build media, events, or sponsorship partnerships that grow Nigerian football together.</p>
+          </div>
+        </div>
+        <a href="mailto:info@fantasyzone.com" class="cta-btn">YES, I WANT TO CONNECT!</a>
+      </div>
+    </section>
+  
+    <!-- About / Vision Section -->
+    <section class="about-npfl">
+      <div class="about-container">
+        <div class="about-left">
+          <div class="image-grid">
+            <img src="/IMAGES/Gemini_Generated_Image_l6m5yal6m5yal6m5-removebg-preview.png" alt="NPFL Team">
+            <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=400&q=80" alt="Fans">
+            <img src="https://images.unsplash.com/photo-1551958219-acbc608c6377?auto=format&fit=crop&w=400&q=80" alt="Game">
+          </div>
+          <div class="experience-box">
+            <h3>10+</h3>
+            <p>Years of Football Coverage</p>
+          </div>
+        </div>
+    
+        <div class="about-right">
+          <h2>Are You Ready To Grow <span>Your Club’s Reach?</span></h2>
+          <p>
+            At <strong>NPFL Insight</strong>, we connect Nigerian football clubs, players, and fans through
+            world-class media coverage, storytelling, and digital innovation.
+          </p>
+          <ul>
+            <li>📊 In-depth statistics & data insights</li>
+            <li>🎥 Exclusive interviews and match breakdowns</li>
+            <li>🌍 Global spotlight for local talent</li>
+          </ul>
+          <a href="mailto:info@fantasyzone.com" class="cta-btn">Get In Touch</a>
+        </div>
+      </div>
+    </section>    
   </main>
-
+  
   <footer class="site-footer">
-    <div class="container footer-inner">
-      <div>© NPFL Insight — Contact</div>
-      <nav class="footer-nav">
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-      </nav>
+    <div class="footer-container">
+      <div class="footer-col brand">
+        <h2 class="footer-logo">NPFL Insight</h2>
+        <p>Your gateway to Nigerian football news, analysis, and stories from the pitch.</p>
+        <div class="footer-contact">
+          <p><i class="fa fa-map-marker"></i> Lagos, Nigeria</p>
+          <p><i class="fa fa-phone"></i> +234 800 123 4567</p>
+          <p><i class="fa fa-envelope"></i> info@npflinsight.com</p>
+        </div>
+      </div>
+  
+      <div class="footer-col">
+        <h3>Navigation</h3>
+        <ul>
+          <li><a href="/HTML/index.html">Home</a></li>
+          <li><a href="matches.html">Matches</a></li>
+          <li><a href="teams.html">Teams</a></li>
+          <li><a href="articles.html">Articles</a></li>
+        </ul>
+      </div>
+  
+      <div class="footer-col">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="/HTML/contact.html">Contact Us</a></li>
+          <li><a href="/HTML/podcast.html">Podcast</a></li>
+          <li><a href="live.html">Live Scores</a></li>
+          <li><a href="highlights.html">Highlights</a></li>
+        </ul>
+      </div>
+  
+      <div class="footer-col">
+        <h3>Follow Us</h3>
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>        
+      </div>
     </div>
-  </footer>
+  
+    <div class="footer-bottom">
+      <p>© 2025 NPFL Insight — Built with ❤️ by Daniel Irom</p>
+    </div>
+  </footer>  
 
-  <script src="js/script.js"></script>
+  <script src="/jAVASCRIPT/contact.js
+  "></script>
 </body>
 </html>

@@ -4,56 +4,213 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>NPFL Insight — Gist & Trends</title>
-  <link rel="stylesheet" href="css/style.css">
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+  />
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="/IMAGES/file_000000002b9471f4b870f9ccd6563e9a-removebg-preview.png">
+  <link rel="stylesheet" href="/CSS/gist.css">
 </head>
 <body>
-  <header class="site-header">
-    <div class="container nav-wrap">
-      <div class="brand"><a href="index.html">NPFL <span>Insight</span></a></div>
-      <button id="mobileMenuBtn4" class="mobile-btn" aria-label="Open menu">☰</button>
-      <nav id="nav4" class="main-nav">
-        <ul>
-          <li><a href="/HTML/index.html">🏠Home</a></li>
-          <li><a href="./podcast.html">🎙️Podcast</a></li>
-          <li><a href="./reviews.html">Reviews & Previews</a></li>
-          <li><a href="./gist.html" class="active">💬 Gist & Trends</a></li>
-          <li><a href="clubs.html">Clubs & Fixtures</a></li>
-          <li><a href="./about.html">👥 About</a></li>
-          <li><a href="./contact.html">📬 Join</a></li>
-        </ul>
-      </nav>
-    </div>
+  <!-- Header / Nav -->
+ 
+  <header class="hero-header">
+    <!-- NAVBAR -->
+    <nav class="navbar">
+      <div class="logo">
+        <img src="/IMAGES/file_000000002b9471f4b870f9ccd6563e9a-removebg-preview.png" alt="NPFL Insight">
+      </div>
+    
+      <ul class="nav-links">
+        <li><a href="/HTML/index.html">🏠Home</a></li>
+        <li><a href="/HTML/podcast.html">🎙️Podcast</a></li>
+        <li><a href="/HTML/reviews.html">🧠Reviews</a></li>
+        <li><a href="/HTML/gist.html" class="active">💬Trends</a></li>
+        <li><a href="/HTML/fantacy.html">⚽Fantacy</a></li>
+        <li><a href="/HTML/about.html">👥 About</a></li>
+        <li><a href="/HTML/contact.html" class="btn-join">📬 Join</a></li>
+      </ul>
+    </nav>
+    
+  
+    <!-- HERO CONTENT -->
+    <div class="hero-section">
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1>INSIGHT INTO THE GAME</h1>
+          <p>Latest stats, stories, and trends from the Nigerian Professional Football League.</p>
+          <div class="hero-buttons">
+            <a href="clubs.html" class="btn-primary">Explore Fixtures</a>
+            <a href="fantasy.html" class="btn-secondary">Join Fantasy League</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <img src="/IMAGES/ftacy01.png" alt="">
+        </div>
+      </div>
+    </div>    
   </header>
+  <main class="npfl-main">
+    <!-- Hero Section -->
 
-  <main class="container">
-    <section class="card">
-      <h1>Gist & Trends</h1>
-      <p class="muted">Viral moments, interviews, transfer gist and fan highlights.</p>
 
-      <div class="trend-list">
-        <article class="card">
-          <h3>Fan Moment — Kano Fans Celebrate</h3>
-          <p class="muted">Short clip and reaction.</p>
-        </article>
-
-        <article class="card">
-          <h3>Transfer Gist — Who's Moving?</h3>
-          <p class="muted">Latest rumour round-up and credibility check.</p>
-        </article>
+    <!-- Match Results -->
+    <section class="match-results">
+      <div class="match">
+        <span>Rangers</span>
+        <strong>2 - 1</strong>
+        <span>Enyimba</span>
+      </div>
+      <div class="match">
+        <span>Remo Stars</span>
+        <strong>1 - 1</strong>
+        <span>Kano Pillars</span>
+      </div>
+      <div class="match">
+        <span>Sunshine Stars</span>
+        <strong>0 - 3</strong>
+        <span>Bendel Insurance</span>
       </div>
     </section>
-  </main>
 
+    <main class="news-layout">
+      <!-- Left Content (Main News Categories) -->
+      <div class="main-content">
+        <!-- Sports Section -->
+        <section class="category-section">
+          <h2 class="category-title">Sports</h2>
+          <div class="category-grid">
+            <div class="main-article">
+              <img src="https://images.unsplash.com/photo-1508609349937-5ec4ae374ebf?auto=format&fit=crop&w=1200&q=80" alt="Sports Feature">
+              <h3>Enyimba’s Title Push: Can They Go All the Way?</h3>
+              <p>November 5, 2025 • By NPFL Insight</p>
+            </div>
+            <div class="side-articles">
+              <article>
+                <img src="https://images.unsplash.com/photo-1521412644187-c49fa049e84d?auto=format&fit=crop&w=400&q=80" alt="Match">
+                <h4>Rangers Edge Out Enyimba in Tense Encounter</h4>
+              </article>
+              <article>
+                <img src="https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&w=400&q=80" alt="Remo Stars">
+                <h4>Remo Stars Maintain Unbeaten Run</h4>
+              </article>
+              <article>
+                <img src="https://images.unsplash.com/photo-1599058917212-d750089bc07e?auto=format&fit=crop&w=400&q=80" alt="Kano Pillars">
+                <h4>Kano Pillars’ New Coach Brings Tactical Edge</h4>
+              </article>
+            </div>
+          </div>
+        </section>
+    
+        <!-- Travel Section -->
+        <section class="category-section">
+          <h2 class="category-title">Travel</h2>
+          <div class="category-grid">
+            <div class="main-article">
+              <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80" alt="Travel Feature">
+              <h3>Top 10 Adventure Spots Across Nigeria</h3>
+              <p>November 3, 2025 • By Travel Insight</p>
+            </div>
+            <div class="side-articles">
+              <article>
+                <img src="https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=400&q=80" alt="Adventure">
+                <h4>Discovering Nigeria’s Hidden Waterfalls</h4>
+              </article>
+              <article>
+                <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=400&q=80" alt="Nature">
+                <h4>Why You Should Visit Obudu Cattle Ranch</h4>
+              </article>
+              <article>
+                <img src="https://images.unsplash.com/photo-1493558103817-58b2924bce98?auto=format&fit=crop&w=400&q=80" alt="Lagos Beach">
+                <h4>Experience Lagos Beaches Like Never Before</h4>
+              </article>
+            </div>
+          </div>
+        </section>
+      </div>
+    
+      <!-- Sidebar -->
+      <aside class="sidebar">
+        <div class="widget follow-us">
+          <h3>Follow Us</h3>
+          <div class="social-icons">
+            <a href="#">FB</a>
+            <a href="#">X</a>
+            <a href="#">IG</a>
+            <a href="#">YT</a>
+          </div>
+        </div>
+    
+        <div class="widget ad">
+          <h3>Advertisement</h3>
+          <img src="https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?auto=format&fit=crop&w=400&q=80" alt="Ad Banner">
+        </div>
+    
+        <div class="widget latest-news">
+          <h3>Latest News</h3>
+          <ul>
+            <li><a href="#">Rangers Win Late to Move Top of the Table</a></li>
+            <li><a href="#">Sunshine Stars Struggle to Find Form</a></li>
+            <li><a href="#">Enyimba Captain Reflects on Derby Win</a></li>
+            <li><a href="#">NPFL Week 10 Preview: What to Expect</a></li>
+          </ul>
+        </div>
+      </aside>
+    </main>
+    
+    
+    <!-- News Grid -->
+    <!-- Sidebar Layout -->
+  </main>  
   <footer class="site-footer">
-    <div class="container footer-inner">
-      <div>© NPFL Insight — Gist</div>
-      <nav class="footer-nav">
-        <a href="index.html">Home</a>
-        <a href="contact.html">Contact</a>
-      </nav>
+    <div class="footer-container">
+      <div class="footer-col brand">
+        <h2 class="footer-logo">NPFL Insight</h2>
+        <p>Your gateway to Nigerian football news, analysis, and stories from the pitch.</p>
+        <div class="footer-contact">
+          <p><i class="fa fa-map-marker"></i> Lagos, Nigeria</p>
+          <p><i class="fa fa-phone"></i> +234 800 123 4567</p>
+          <p><i class="fa fa-envelope"></i> info@npflinsight.com</p>
+        </div>
+      </div>
+  
+      <div class="footer-col">
+        <h3>Navigation</h3>
+        <ul>
+          <li><a href="/HTML/index.html">Home</a></li>
+          <li><a href="matches.html">Matches</a></li>
+          <li><a href="teams.html">Teams</a></li>
+          <li><a href="articles.html">Articles</a></li>
+        </ul>
+      </div>
+  
+      <div class="footer-col">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="/HTML/contact.html">Contact Us</a></li>
+          <li><a href="/HTML/podcast.html">Podcast</a></li>
+          <li><a href="live.html">Live Scores</a></li>
+          <li><a href="highlights.html">Highlights</a></li>
+        </ul>
+      </div>
+  
+      <div class="footer-col">
+        <h3>Follow Us</h3>
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>        
+      </div>
     </div>
-  </footer>
+  
+    <div class="footer-bottom">
+      <p>© 2025 NPFL Insight — Built with ❤️ by Daniel Irom</p>
+    </div>
+  </footer>  
 
-  <script src="js/script.js"></script>
+  <script src="/jAVASCRIPT/gist.js"></script>
 </body>
 </html>
