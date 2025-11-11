@@ -3,14 +3,14 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>NPFL Insight — About</title>
+  <title>NPFL Insight — Reviews & Previews</title>
   <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
-  />
-  <!-- Favicon -->
-  <link rel="icon" type="image/png" href="/IMAGES/file_000000002b9471f4b870f9ccd6563e9a-removebg-preview.png">
-  <link rel="stylesheet" href="./CSS/about.css">
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+/>
+<!-- Favicon -->
+<link rel="icon" type="image/png" href="/IMAGES/file_000000002b9471f4b870f9ccd6563e9a-removebg-preview.png">
+  <link rel="stylesheet" href="../CSS/review.css">
 </head>
 <body>
   <header class="hero-header">
@@ -23,10 +23,10 @@
       <ul class="nav-links">
         <li><a href="/HTML/index.html">🏠Home</a></li>
         <li><a href="/HTML/podcast.html">🎙️Podcast</a></li>
-        <li><a href="/HTML/reviews.html">🧠Reviews</a></li>
+        <li><a href="/HTML/reviews.html"class="active">🧠Reviews</a></li>
         <li><a href="/HTML/gist.html">💬Trends</a></li>
         <li><a href="/HTML/fantacy.html">⚽Fantacy</a></li>
-        <li><a href="/HTML/about.html"class="active">👥 About</a></li>
+        <li><a href="/HTML/about.html">👥 About</a></li>
         <li><a href="/HTML/contact.html" class="btn-join">📬 Join</a></li>
       </ul>
     </nav>
@@ -49,65 +49,78 @@
       </div>
     </div>    
   </header>
-  <main class="about-bbc-style">
-    <section class="about-intro">
-      <div class="container">
-        <h2>About NPFL Insight</h2>
-        <p>
-          <strong>NPFL Insight</strong> is Nigeria’s leading platform dedicated to covering the
-          <em>Nigerian Professional Football League</em> through powerful storytelling,
-          in-depth analysis, and creative digital media. We bring fans, players, and clubs together
-          through quality journalism, design, and innovation.
-        </p>
-        <p>
-          Our mission is simple — to make Nigerian football visible, engaging, and globally respected.
-          We publish weekly features, host insightful podcasts, and share real-time updates across our digital channels.
-        </p>
-      </div>
-    </section>
-  
-    <section class="what-we-do">
-      <div class="container">
-        <h2>What We Do</h2>
-        <div class="work-grid">
-          <div class="work-card">
-            <img src="/IMAGES/pod-hero.png" alt="Studio" />
-            <h3>League Coverage</h3>
-            <p>We provide real-time updates, reports, and analysis from NPFL matches and press events.</p>
-          </div>
-          <div class="work-card">
-            <img src="/IMAGES/studio01.jpeg " alt="Interview" />
-            <h3>Podcast & Media</h3>
-            <p>Through our weekly shows, we discuss tactics, culture, and the voices shaping Nigerian football.</p>
-          </div>
-          <div class="work-card">
-            <img src="/IMAGES/data.jpg" alt="Data" />
-            <h3>Data Insights</h3>   
-      </div>
-    </section>
-  
-    <section class="who-we-are">
-      <div class="container">
-        <h2>Who We Are</h2>
-        <div class="team-grid">
-          <div class="team-card">
-            <img src="/IMAGES/team1.jpg" alt="Team" />
-            <h3>Editorial Board</h3>
-            <p>Experienced journalists and analysts passionate about elevating NPFL storytelling.</p>
-          </div>
-          <div class="team-card">
-            <img src="/IMAGES/creative.jpg" alt="Creative" />
-            <h3>Creative Studio</h3>
-            <p>Our visual team brings every match to life through design, film, and sound production.</p>
-          </div>
-          <div class="team-card">
-            <img src="/IMAGES/partners.jpg" alt="Partners" />
-            <h3>Partners & Collaborators</h3>
-            <p>We collaborate with clubs, brands, and independent creators across Nigeria’s football ecosystem.</p>
-          </div>
+  <main class="review-dashboard">
+    <!-- Left Column: Featured Match -->
+    <section class="featured-match">
+      <div class="match-header">
+        <img src="/IMAGES/enyimba.png" alt="Home Team">
+        <div class="match-info">
+          <h2>Enyimba vs Rangers</h2>
+          <p>NPFL Week 10 | Aba Stadium</p>
         </div>
+        <img src="/IMAGES/rangers.png" alt="Away Team">
+      </div>
+      <div class="match-stats">
+        <p><strong>Kickoff:</strong> 4:00 PM</p>
+        <p><strong>Referee:</strong> K. Yusuf</p>
+        <p><strong>Venue:</strong> Aba Stadium</p>
       </div>
     </section>
+  
+    <!-- Center Column: Live Scores & Standings -->
+    <section class="live-scores">
+      <h3>Live Scores</h3>
+      <div class="score-card">
+        <div class="teams">
+          <span>Rangers</span>
+          <strong>2 - 1</strong>
+          <span>Enyimba</span>
+        </div>
+        <span class="status live">Live</span>
+      </div>
+      <div class="score-card">
+        <div class="teams">
+          <span>Kano Pillars</span>
+          <strong>1 - 0</strong>
+          <span>Remo Stars</span>
+        </div>
+        <span class="status finished">FT</span>
+      </div>
+  
+      <h3>NPFL Standings</h3>
+      <table class="standings">
+        <thead>
+          <tr>
+            <th>#</th><th>Team</th><th>Pts</th><th>GD</th><th>W</th><th>L</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>1</td><td>Rangers</td><td>22</td><td>+10</td><td>7</td><td>2</td></tr>
+          <tr><td>2</td><td>Remo Stars</td><td>19</td><td>+7</td><td>6</td><td>3</td></tr>
+          <tr><td>3</td><td>Enyimba</td><td>17</td><td>+5</td><td>5</td><td>4</td></tr>
+        </tbody>
+      </table>
+    </section>
+  
+    <!-- Right Sidebar: Previews and Interviews -->
+    <aside class="sidebar">
+      <div class="widget">
+        <h4>Previews</h4>
+        <ul>
+          <li><a href="#">Rivers United vs Enyimba: Key Battles to Watch</a></li>
+          <li><a href="#">Kano Pillars Eye Tactical Advantage</a></li>
+          <li><a href="#">Sunshine Stars Ready for Tough Away Match</a></li>
+        </ul>
+      </div>
+      <div class="widget">
+        <h4>Post-Match Interviews</h4>
+        <ul>
+          <li><a href="#">Coach Finidi Reacts to Narrow Defeat</a></li>
+          <li><a href="#">Rangers Captain: “We Fought Till the End”</a></li>
+          <li><a href="#">Remo Coach on Keeping Momentum</a></li>
+        </ul>
+      </div>
+    </aside>
   </main>
   
   <footer class="site-footer">
@@ -157,7 +170,7 @@
       <p>© 2025 NPFL Insight — Built with ❤️ by Daniel Irom</p>
     </div>
   </footer>
-
-  <script src="js/script.js"></script>
+ 
+  <script src="/jAVASCRIPT/gist.js"></script>
 </body>
 </html>
